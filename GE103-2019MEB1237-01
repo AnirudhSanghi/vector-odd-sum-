@@ -1,0 +1,39 @@
+Submitter name: ANIRUDH SANGHI
+Roll No. : 2019meb1237
+Course: GE103
+#1 What does this program do?
+  - this programme first take input from the user about how many numbers he or she want store in a vector. After that it identify it is as even or odd and if odd it add the odd one's only.
+
+
+
+#2 A description of how this program works.
+  - Firstly it ask the user to input the size of the vector he wants to create
+  - then the  programme goes to while loop which will run as much times as the size of vector
+    In the loop programme wait for user input that the integer he want to store(ask for input as many times as loop runs)
+  -then in each run of loop it checks wether the no. is even or odd with the help of remainder operator. if it is even it print that this no. is even or otherwise it is odd and print that the a odd no. is founded and it store that odd no. to a varible name odd_sum_num . each time time the loop run and if it got odd no. it add that to the all previous sum of odd numbers.
+ 
+
+
+#3 How to compile and run this program
+  _step 1  Open the terminal and go where the code file is placed
+  _step 2  write gcc vector.c -0  vector
+  _step 3  write ./ GE103-2019MEB1237-01
+ 
+
+#4 sample run
+2019meb1239@cslab:~$ gcc vector.c -o vector
+2019meb1239@cslab:~$ ./vector
+Please enter the vector size (n) :5
+inputing vector of size 5 
+enter the no. 1 :77
+found odd no. 77 
+enter the no. 2 :66
+66 is an even no.
+enter the no. 3 :437
+found odd no. 437 
+enter the no. 4 :66
+66 is an even no.
+enter the no. 5 :78
+78 is an even no.
+sum of odd ones are 514
+
